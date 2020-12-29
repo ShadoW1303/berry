@@ -1,0 +1,24 @@
+// MEDIA
+
+@media (max-width: 406px) {
+    h1 { font-size: 22px; }
+}
+
+@media (max-width: 520px) {
+    .block__description-why {
+        .block__list {
+            max-width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 50px;
+    
+                .block__litem {
+                padding: 50px 150px 50px 150px;
+                width: 110px;
+                }
+        } 
+    }
+}

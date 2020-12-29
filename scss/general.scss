@@ -1,0 +1,26 @@
+// html, body
+html, body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+// all
+
+* {
+
+    font-family: 'Montserrat', sans-serif;
+
+    ::selection {
+        background-color: rgba(255, 115, 105, $alpha: 1)
+    }
+}
+
+// wrapper
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    
+    @include flexCC;
+}
